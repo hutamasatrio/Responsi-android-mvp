@@ -1,6 +1,5 @@
 package com.responsi.mvp.model;
 
-
 import com.google.gson.annotations.SerializedName;
 
 public class Name{
@@ -41,10 +40,6 @@ public class Name{
 	@Override
  	public String toString(){
 		return 
-			"Name{" + 
-			"last = '" + last + '\'' + 
-			",title = '" + title + '\'' + 
-			",first = '" + first + '\'' + 
-			"}";
+				first + " " + title + " " + last;
 		}
 }
